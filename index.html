@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+  </head>
+  <body>
+    <header>
+      <h1>Frustrated Cat</h1>
+    </header>
+
+    <section class="search-section">
+      <input
+        type="search"
+        id="site-search"
+        placeholder="Search Author"
+        name="search"
+        required
+      />
+
+      <div>
+        <input type="radio" id="search-author" name="search-author" checked />
+        <label for="search-author">Search Author</label>
+      </div>
+
+      <div>
+        <input type="radio" id="search-title" name="search-title" />
+        <label for="search-title">Search Title</label>
+      </div>
+    </section>
+
+    <section class="sort-section">
+      <label class="sort">Sort By</label>
+      <div>
+        <input type="radio" id="sort-author" name="sort-author" checked />
+        <label for="sort-author">Author</label>
+      </div>
+
+      <div>
+        <input type="radio" id="sort-title" name="sort-title" />
+        <label for="sort-title">Title</label>
+      </div>
+    </section>
+  </body>
+</html>
