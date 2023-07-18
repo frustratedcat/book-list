@@ -3,33 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link href="style.css" rel="stylesheet" />
     <title>Library</title>
   </head>
   <body>
-    <header>
-      <h1>Frustrated Cat</h1>
+    <header class="header">
+      <h1>The Frustrated Cat</h1>
     </header>
 
-    <section class="search-section">
-      <input
-        type="search"
-        id="site-search"
-        placeholder="Search Author"
-        name="search"
-        required
-      />
+    <div class="search-section-container">
+      <section class="search-section">
+        <input
+          type="search"
+          id="site-search"
+          class="search-section-input"
+          placeholder="Search Author"
+          name="search"
+          required
+        />
 
-      <div>
-        <input type="radio" id="search-author" name="search-author" checked />
-        <label for="search-author">Search Author</label>
-      </div>
+        <div class="search-section-radios">
+          <input type="radio" id="search-author" name="search-author" checked />
+          <label for="search-author">Search Author</label>
+        </div>
 
-      <div>
-        <input type="radio" id="search-title" name="search-title" />
-        <label for="search-title">Search Title</label>
-      </div>
-    </section>
+        <div class="search-section-radios">
+          <input type="radio" id="search-title" name="search-title" />
+          <label for="search-title">Search Title</label>
+        </div>
+      </section>
+    </div>
 
     <section class="sort-section">
       <label class="sort">Sort By</label>
