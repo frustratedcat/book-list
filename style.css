@@ -70,10 +70,17 @@ body {
   margin: 4.4rem;
 }
 
+.search-sort-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .search-section-container {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 4.4rem;
 }
 
 .search-section {
@@ -88,5 +95,28 @@ body {
 }
 
 .search-section-radios {
+  font-size: 1.6rem;
+}
+
+.sort-section-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4.4rem;
+}
+
+.sort-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+}
+
+.sort {
+  grid-row: 1 / 3;
+  align-self: center;
+  font-size: 1.8rem;
+}
+
+.sort-section-radios {
   font-size: 1.6rem;
 }
