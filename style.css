@@ -67,11 +67,15 @@ body {
 }
 
 .header {
-  font-size: 3.6rem;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 4.6rem;
+  font-size: 3.6rem;
+}
+
+.header-h1 {
+  text-align: center;
 }
 
 .search-sort-container {
@@ -151,6 +155,13 @@ body {
 .img-container {
   display: inline-block;
   text-align: center;
+}
+
+.cover-img {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .description-list {
