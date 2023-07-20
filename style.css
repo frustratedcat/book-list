@@ -161,13 +161,14 @@ body {
 }
 
 .img-container {
-  display: inline-block;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .cover-img {
   width: 150px;
-  height: auto;
+  height: 231px;
   object-fit: cover;
   border-radius: 10px;
 }
