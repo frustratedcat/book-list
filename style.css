@@ -172,6 +172,12 @@ body {
   height: 231px;
   object-fit: cover;
   border-radius: 10px;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.3);
+  transition: transform 0.4s ease;
+}
+
+.cover-img:hover {
+  transform: scale(1.05);
 }
 
 .description-list {
