@@ -110,6 +110,11 @@ body {
   font-size: 1.6rem;
 }
 
+.search-section-radios input,
+.search-section-radios label {
+  cursor: pointer;
+}
+
 .main-section {
   display: flex;
   flex-direction: column;
