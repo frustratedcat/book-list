@@ -18,13 +18,3 @@ radioSearchTitle.addEventListener("click", function () {
   radioSearchTitle.checked = true;
   searchBox.placeholder = "Search Title";
 });
-
-// For sorting arrays
-//THIS DOESN'T WORK, I NEED TO BUILD A DATABASE AND INSERT EVERYTHING INTO THE HTML FROM THERE
-const authorNameSorting = document.querySelector(".author-name").textContent;
-
-const titleNameSorting = document.querySelector(".title-name").textContent;
-
-const sortingArray = [];
-sortingArray.push(authorNameSorting);
-console.log(sortingArray);
